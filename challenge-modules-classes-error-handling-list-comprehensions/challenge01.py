@@ -27,7 +27,7 @@ unique_teams = set(unique_teams)
 # print(unique_teams)
 # {'ATL', 'SEA', 'CHI', 'SD', 'CIN', 'GB', 'CLE', 'JAX', 'MIN', 'NO', ... }
 
-# likewise for 'hames' column
+# likewise for 'games' column
 unique_games = [x[2] for x in nfl_suspensions]
 unique_games = set(unique_games)
 # print(unique_games)
